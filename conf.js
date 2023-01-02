@@ -85,14 +85,14 @@ jsproxy_config({
    * URL 自定义处理（设计中）
    */
   url_handler: {
-    'https://www.baidu.com/img/baidu_resultlogo@2.png': {
-      replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
-    },
-    'https://www.pornhub.com/': {
-      redir: 'https://php.net/'
-    },
-    'http://haha.com/': {
-      content: 'Hello World'
-    },
+  //  'https://www.baidu.com/img/baidu_resultlogo@2.png': {
+  //   replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
+  //  },
+  //  'https://www.pornhub.com/': {
+  //    redir: 'https://php.net/'
+  //  },
+  //  'http://haha.com/': {
+  //   content: 'Hello World'
+  //  },
   }
 })
